@@ -1,0 +1,39 @@
+{
+  "name": "rabobank-mortgage-tests",
+  "version": "1.0.0",
+  "description": "Playwright E2E tests for Rabobank Mortgage Application Portal - RBTES-1130",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:mobile": "playwright test --project='Mobile Chrome' --project='Mobile Safari'",
+    "test:report": "playwright show-report",
+    "test:codegen": "playwright codegen"
+  },
+  "keywords": [
+    "playwright",
+    "e2e",
+    "testing",
+    "rabobank",
+    "mortgage",
+    "automation"
+  ],
+  "author": "NAVI Automation",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ParasuChandru/rabobank-mortgage-tests.git"
+  },
+  "bugs": {
+    "url": "https://parasutest.atlassian.net/browse/RBTES-1130"
+  }
+}
